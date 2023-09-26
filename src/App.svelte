@@ -21,15 +21,12 @@
   import { setContext } from 'svelte';
   import { themes } from './config.js';
   import { setColors } from './utils.js';
-  import { colors } from './config.js';
   import UHCHeader from './layout/UHCHeader.svelte';
   import UHCFooter from './layout/UHCFooter.svelte';
-  import Header from './layout/Header.svelte';
   import Section from './layout/Section.svelte';
   import Media from './layout/Media.svelte';
   import Filler from './layout/Filler.svelte';
   import Divider from './layout/Divider.svelte';
-  import Toggle from './ui/Toggle.svelte';
   import Arrow from './ui/Arrow.svelte';
   let theme = 'light';
   setContext('theme', theme);
