@@ -69,6 +69,7 @@
         style,
         minZoom: minzoom,
         maxZoom: maxzoom,
+        dragPan: false,
         interactive,
         ...options,
       });
