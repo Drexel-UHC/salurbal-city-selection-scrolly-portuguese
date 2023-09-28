@@ -684,39 +684,39 @@
 <UHCHeader filled={true} center={false} />
 
 <Filler theme="lightblue" short={true} wide={true} center={false}>
-  <h1>What is a SALURBAL city?</h1>
+  <h1>O que é uma cidade SALURBAL?</h1>
   <p class="text-big" style="margin-top: 5px">
-    SALURBAL city, sub-city, and neighborhood definition and selection
+    Cidade SALURBAL, sub-cidade e definição e seleção de bairro
   </p>
 
   <p class="text-medium">
-    Designed by: <span style={'font-weight: 900'}>
+    Projetado por: <span style={'font-weight: 900'}>
       Usama Bilal, Katy Indvik, Steve Melly, Andrea Bolinaga, Kari Moore, Alex
       Quistberg, Ana V. Diez Roux</span
     >
     <br />
-    Engineered by:
+    Desenvolvido por:
     <span style={'font-weight: 900'}> Anuj Tanwar, Ran Li</span>
   </p>
 </Filler>
 
 <Section>
-  <h2>Introduction</h2>
+  <h2>Introdução</h2>
   <p class="text-medium">
-    The SALURBAL team has developed a rigorous protocol for defining cities,
-    sub-cities, and neighborhoods. This process allows us to study and compare
-    urban environments and their health impacts across cities in 11 countries in
-    Latin America: Argentina, Brazil, Chile, Colombia, Costa Rica, El Salvador,
-    Guatemala, Mexico, Nicaragua, Panama, and Peru.
+    A equipe SALURBAL desenvolveu um protocolo rigoroso para definir cidades,
+    sub-cidades e bairros. Esse processo nos permite estudar e comparar
+    ambientes urbanos e seus impactos na saúde em cidades de 11 países da
+    América Latina: Argentina, Brasil, Chile, Colômbia, Costa Rica, El Salvador,
+    Guatemala, México, Nicarágua, Panamá e Peru.
   </p>
   <p class="text-medium">
-    We undertook a systematic approach to identify and define SALURBAL cities.
-    The approach described below has guided the definition of geographic areas
-    to which all SALURBAL data is linked. You can read more about this process
-    in <a
+    Empreendemos uma abordagem sistemática para identificar e definir as cidades
+    SALURBAL. A abordagem descrita abaixo orientou a definição de áreas
+    geográficas às quais todos os dados SALURBAL estão vinculados. Você pode ler
+    mais sobre esse processo em <a
       href="https://link.springer.com/article/10.1007/s11524-018-00326-0"
       target="_blank"
-      >“Building a Data Platform for Cross-Country Urban Health Studies.”</a
+      >"Building a Data Platform for Cross-Country Urban Health Studies."</a
     >
   </p>
 </Section>
@@ -724,30 +724,35 @@
 <Divider />
 
 <Section>
-  <h3>Step 1. Identifying cities with a population of 100,000 or more.</h3>
+  <h3>Passo 1. Identificando cidades com uma população de 100.000 ou mais.</h3>
   <div class="two-col-container">
     <div class="left-col">
       <p class="text-medium">
-        The SALURBAL city universe was defined as all urban agglomerations with
-        at least 100,000 residents as of 2010.
+        O universo da cidade SALURBAL foi definido como todas as aglomerações
+        urbanas com pelo menos 100.000 residentes a partir de 2010.
       </p>
       <p class="text-medium">
-        We used the <a href="http://atlasofurbanexpansion.org/" target="_blank"
-          >Atlas of Urban Expansion</a
+        Usamos o <a href="http://atlasofurbanexpansion.org/" target="_blank"
+          >Atlas da Expansão Urbana</a
         >
-        and country census data from
+        e os dados do censo do país de
         <a href="https://citypopulation.de/" target="_blank"
           >citypopulation.de</a
-        > to obtain a list of all cities (as defined in these sources) with 100,000
-        residents or more in 2010. We combined both lists and eliminated duplicates.
+        > para obter uma lista de todas as cidades (conforme definido nessas fontes)
+        com 100.000 residentes ou mais em 2010. Combinamos ambas as listas e eliminamos
+        as duplicatas.
       </p>
     </div>
+
     <!-- 
   # ============================================================================ #
   # Map 1  (371 Salurbal cities)
 -->
     <div class="right-col">
-      <Media col="medium" caption="Interactive map of all 371 SALURBAL cities">
+      <Media
+        col="medium"
+        caption="Mapa interativo de todas as 371 cidades SALURBAL"
+      >
         <div class="chart-sml">
           <Map
             id="static_map_1"
@@ -791,30 +796,33 @@
 </Section>
 
 <Section>
-  <h3>Step 2: Combining neighboring cities</h3>
+  <h3>Passo 2: Combinando cidades vizinhas</h3>
   <p class="text-medium">
-    Cities that were initially considered separate cities were combined into one
-    city if they were part of the same agglomeration, that is, if their built-up
-    areas were connected. We used the name of the city with the larger
-    population to label these units. In a few cases where the populations were
-    nearly equal, we assigned a hyphenated name (e.g., Valparaiso-Viña del Mar,
-    Chile). This process resulted in 371 cities, which we refer to as “SALURBAL
-    cities.”
+    Cidades que inicialmente foram consideradas cidades separadas foram
+    combinadas em uma única cidade se faziam parte da mesma aglomeração, ou
+    seja, se suas áreas construídas estavam conectadas. Usamos o nome da cidade
+    com a maior população para rotular essas unidades. Em alguns casos onde as
+    populações eram quase iguais, atribuímos um nome hifenizado (por exemplo,
+    Valparaiso-Viña del Mar, Chile). Esse processo resultou em 371 cidades, às
+    quais nos referimos como “cidades SALURBAL”.
   </p>
 </Section>
 
 <Section>
-  <h3>Step 3: Defining the geographic boundaries of each city.</h3>
+  <h3>Passo 3: Definindo os limites geográficos de cada cidade.</h3>
   <p class="text-medium">
-    We operationalized - or geographically defined - each SALURBAL city using
-    existing administrative units to which health and other data could be easily
-    linked. These administrative units included <em>municipios</em>,
-    <em>departamentos</em>, or similar units in each country.
+    Operacionalizamos - ou definimos geograficamente - cada cidade SALURBAL
+    usando unidades administrativas existentes às quais a saúde e outros dados
+    poderiam ser facilmente vinculados. Essas unidades administrativas incluíam <em
+      >municípios</em
+    >,
+    <em>departamentos</em> ou unidades similares em cada país.
   </p>
   <div style="display: flex; justify-content: center; align-items: center;">
     <Arrow color="black" animation={true} />
   </div>
 </Section>
+
 <div style="height: 3rem" />
 
 <!-- 
@@ -841,13 +849,13 @@
             <div class="sticky-legend">
               <div class="boundary-metro-legend" />
               <div class="boundary-legend-text">
-                Locally defined Metropolitan Region of São Paulo
+                Região Metropolitana de São Paulo definida localmente
               </div>
               <div class="boundary-sp-muni-legend" />
-              <div class="boundary-legend-text">Municiplidade of São Paulo</div>
+              <div class="boundary-legend-text">Município de São Paulo</div>
               <div class="boundary-l1-legend" />
               <div class="boundary-legend-text">
-                SALURBAL defined city of São Paulo
+                Cidade de São Paulo definida pelo SALURBAL
               </div>
             </div>
           {/if}
@@ -1075,79 +1083,75 @@
   <div slot="foreground">
     <section data-id="map01">
       <div class="col-medium">
-        <p>We’ll use São Paulo, Brazil as an example.</p>
+        <p>Usaremos São Paulo, Brasil como exemplo.</p>
       </div>
     </section>
     <section data-id="map02">
       <div class="col-medium">
         <p>
-          These are the <span style={style_l2}>administrative units</span>
-          (<em>muncipalidade</em>) in São Paulo, Brazil.
+          Estas são as <span style={style_l2}>unidades administrativas</span>
+          (<em>município</em>) em São Paulo, Brasil.
         </p>
       </div>
     </section>
-    <!-- <section data-id="map03">
-      <div class="col-medium">
-        <p>
-          This is the <span style={style_ux}>urban extent</span>, or built-up
-          area, of São Paulo.
-        </p>
-      </div>
-    </section> -->
     <section data-id="map04">
       <div class="col-medium">
         <p>
-          Through visual inspection of satellite imagery, we identified <span
+          Através da inspeção visual de imagens de satélite, identificamos <span
             style={style_ux}
           >
-            all administrative units that included any portion of the built-up
-            area</span
-          > of each SALURBAL city.
+            todas as unidades administrativas que incluíam qualquer parte da
+            área construída</span
+          > de cada cidade SALURBAL.
         </p>
       </div>
     </section>
     <section data-id="map05">
       <div class="col-medium">
         <p>
-          The combination of these <span style={style_l2}
-            >administrative units</span
+          A combinação destas <span style={style_l2}
+            >unidades administrativas</span
           >
-          is considered a
-
-          <span style={style_l1}>SALURBAL city.</span>
+          é considerada uma
+          <span style={style_l1}>cidade SALURBAL.</span>
         </p>
       </div>
     </section>
     <section data-id="map06">
       <div class="col-medium">
         <p>
-          In cases where the <span style={style_l2}>administrative units </span>
-          that compose a city are very large, a
-          <span style={style_l1}>SALURBAL city</span>
-          may include some areas that are
-          <span style={style_unurban}>not built-up or urbanized.</span> This is because
-          any administrative unit that included even a small portion of the built-up
-          area was included in the geographic definition of the city.
+          Em casos onde as <span style={style_l2}
+            >unidades administrativas
+          </span>
+          que compõem uma cidade são muito grandes, uma
+          <span style={style_l1}>cidade SALURBAL</span>
+          pode incluir algumas áreas que são
+          <span style={style_unurban}>não construídas ou urbanizadas.</span> Isso
+          ocorre porque qualquer unidade administrativa que incluía até mesmo uma
+          pequena parte da área construída foi incluída na definição geográfica da
+          cidade.
         </p>
         <p>
-          The example shown here is Monterrey, Mexico with a population of
-          around 5 million residents. Some of the <em>municipios</em> included as
-          part of Monterrey have only a small portion of the city’s urbanized area.
+          O exemplo mostrado aqui é Monterrey, México, com uma população de
+          cerca de 5 milhões de residentes. Alguns dos <em>municípios</em> incluídos
+          como parte de Monterrey têm apenas uma pequena parte da área urbanizada
+          da cidade.
         </p>
       </div>
     </section>
     <section data-id="map07">
       <div class="col-medium">
         <p>
-          While some cities are composed of many of these units, nearly half of
-          <span style={style_l1}>SALURBAL cities</span>
-          include only one
-          <span style={style_l2}> administrative unit</span>.
+          Enquanto algumas cidades são compostas por muitas dessas unidades,
+          quase metade das
+          <span style={style_l1}>cidades SALURBAL</span>
+          incluem apenas uma
+          <span style={style_l2}> unidade administrativa</span>.
         </p>
         <p>
-          The example shown here is Rio Cuarto, Argentina with a population of
-          around 270,000 residents. The <span style={style_ux}>city</span> of
-          Rio Cuarto is made up of a single
+          O exemplo mostrado aqui é Rio Cuarto, Argentina, com uma população de
+          cerca de 270.000 residentes. A <span style={style_ux}>cidade</span> de
+          Rio Cuarto é composta por um único
           <span style={style_l2}><em>departamento</em></span>.
         </p>
       </div>
@@ -1155,28 +1159,28 @@
     <section data-id="map08">
       <div class="col-medium text-medium">
         <p>
-          It is important to note that <span style={style_l1}
-            >SALURBAL cities</span
+          É importante notar que as <span style={style_l1}
+            >cidades SALURBAL</span
           >
-          may not coincide with
-          <span style={style_metro}>political boundaries or definitions</span>
-          that may be more familiar to public officials and local residents. Our
-          boundaries intentionally reflect urban agglomerations that often extend
-          beyond city cores.
+          podem não coincidir com
+          <span style={style_metro}>limites políticos ou definições</span>
+          que podem ser mais familiares para autoridades públicas e moradores locais.
+          Nossos limites refletem intencionalmente aglomerações urbanas que muitas
+          vezes se estendem além dos núcleos das cidades.
         </p>
 
         <p>
-          This is the case for São Paulo, Brazil, where
+          Este é o caso de São Paulo, Brasil, onde
           <span style={style_l1}
-            >our definition based on the built-up extent</span
+            >nossa definição baseada na extensão construída</span
           >
-          varies slightly compared to the
+          varia ligeiramente em comparação com a
           <span style={style_metro}
-            >locally defined Metropolitan Region of São Paulo</span
-          >, and extends beyond the
-          <span style={style_l2}>municipalidade of São Paulo</span>. All
-          SALURBAL city definitions were reviewed by SALURBAL team members in
-          each country, before creating a final list of 371 cities.
+            >Região Metropolitana de São Paulo definida localmente</span
+          >, e se estende além do
+          <span style={style_l2}>município de São Paulo</span>. Todas as
+          definições de cidade SALURBAL foram revisadas pelos membros da equipe
+          SALURBAL em cada país, antes de criar uma lista final de 371 cidades.
         </p>
       </div>
     </section>
@@ -1185,29 +1189,31 @@
 
 <Section>
   <h3>
-    Step 4. Creating a hierarchy of geographic units within each SALURBAL city
+    Passo 4. Criando uma hierarquia de unidades geográficas dentro de cada
+    cidade SALURBAL
   </h3>
   <p class="text-medium">
-    In order to capture within-city differences and accommodate data available
-    for different geographic levels, we defined units at multiple geographic
-    “levels”.
+    Para capturar diferenças dentro da cidade e acomodar dados disponíveis para
+    diferentes níveis geográficos, definimos unidades em múltiplos “níveis”
+    geográficos.
   </p>
   <p class="text-medium">
-    Each SALURBAL city is referred to as a Level 1 unit (L1). Administrative
-    units that compose each city (as described in step 3) are referred to Level
-    2 units (L2). We also defined smaller geographic units, which are similar to
-    neighborhoods nested within each L2. These are referred to as Level 3 units
-    (L3s).
+    Cada cidade SALURBAL é referida como uma unidade de Nível 1 (L1). Unidades
+    administrativas que compõem cada cidade (conforme descrito no passo 3) são
+    referidas como unidades de Nível 2 (L2). Também definimos unidades
+    geográficas menores, que são semelhantes a bairros aninhados dentro de cada
+    L2. Estas são referidas como unidades de Nível 3 (L3s).
   </p>
   <p class="text-medium">
-    In countries where L3s were not defined for the entire territory, SALURBAL
-    created L3 proxies by combining other available geographic units. When L3s
-    were too small for our research purposes, neighborhoods were proxied using
-    slightly larger units. We refer to these as Level 2.5 units (L2.5s).
+    Em países onde L3s não foram definidos para todo o território, SALURBAL
+    criou proxies L3 combinando outras unidades geográficas disponíveis. Quando
+    L3s eram muito pequenos para nossos propósitos de pesquisa, bairros foram
+    representados usando unidades ligeiramente maiores. Referimo-nos a estes
+    como unidades de Nível 2.5 (L2.5s).
   </p>
   <p class="text-medium">
-    Let’s go back to São Paulo to see how these different geographic levels
-    apply to a real city.
+    Vamos voltar a São Paulo para ver como esses diferentes níveis geográficos
+    se aplicam a uma cidade real.
   </p>
   <div
     style="display: flex; justify-content: center; align-items: center; margin-top: 1rem;"
@@ -1405,55 +1411,55 @@
   <div slot="foreground">
     <section data-id="map01">
       <div class="col-medium">
-        <strong>Level 1: “Cities”</strong>
+        <strong>Nível 1: “Cidades”</strong>
         <p>
-          The SALURBAL <span style={style_l1}>Level 1</span> for São Paulo
-          encompasses all administrative units or
-          <em>muncipalidades</em> that have any overlap with the visually apparent
-          built-up urban area in and around the core city of São Paulo.
+          O <span style={style_l1}>Nível 1</span> do SALURBAL para São Paulo
+          engloba todas as unidades administrativas ou
+          <em>municípios</em> que têm qualquer sobreposição com a área urbana construída
+          visualmente aparente dentro e ao redor da cidade central de São Paulo.
         </p>
       </div>
     </section>
     <section data-id="map02">
       <div class="col-medium">
-        <strong>Level 2: "Sub-cities"</strong>
+        <strong>Nível 2: "Sub-cidades"</strong>
         <p>
-          Within the São Paulo SALURBAL city <span style={style_l1}
+          Dentro da cidade SALURBAL de São Paulo <span style={style_l1}
             >(São Paulo L1)</span
-          >, we defined sub-city units as each of the
-          <em>muncipalidades</em> that compose the São Paulo urban
-          agglomeration. These are the
+          >, definimos unidades de sub-cidade como cada um dos
+          <em>municípios</em> que compõem a aglomeração urbana de São Paulo.
+          Estes são os
           <span style={style_l2}>L2s</span>.
         </p>
       </div>
     </section>
     <section data-id="map03">
       <div class="col-medium">
-        <strong>Level 3: "Neighborhoods"</strong>
+        <strong>Nível 3: "Bairros"</strong>
         <p>
-          <span style={style_l3}>Level 3 units or neighborhoods</span> are the smallest
-          administrative units for which census data is available in each country.
+          <span style={style_l3}>Unidades de Nível 3 ou bairros</span> são as menores
+          unidades administrativas para as quais os dados do censo estão disponíveis
+          em cada país.
         </p>
       </div>
     </section>
     <section data-id="map04">
       <div class="col-medium">
-        <strong>Level 3: "Neighborhoods"</strong>
+        <strong>Nível 3: "Bairros"</strong>
         <p>
-          As shown here, each <span style={style_l3}>L3 unit</span> in a
-          Brazilian city like São Paulo corresponds to a
-          <em>setor censitario</em>.
+          Como mostrado aqui, cada <span style={style_l3}>unidade L3</span> em
+          uma cidade brasileira como São Paulo corresponde a um
+          <em>setor censitário</em>.
         </p>
       </div>
     </section>
     <section data-id="map05">
       <div class="col-medium">
         <p>
-          These <span style={style_l3}> L3 units</span> were sometimes too small
-          to support meaningful neighborhood-level analysis. To address this
-          issue, we used larger Brazil census geographic units (<em
-            >Áreas de Ponderação</em
-          >) and labeled them
+          Estas <span style={style_l3}> unidades L3</span> eram às vezes muito
+          pequenas para suportar uma análise significativa ao nível do bairro.
+          Para resolver este problema, usamos unidades geográficas de censo
+          maiores do Brasil (<em>Áreas de Ponderação</em>) e as rotulamos como
           <span style={style_l25}> L2.5's</span>.
         </p>
       </div>
@@ -1461,11 +1467,12 @@
     <section data-id="map06">
       <div class="col-medium">
         <p>
-          The SALURBAL hierarchy of geographic units for Sao Paulo, Brazil
-          consists of 621 <span style={style_l25}>
-            L2.5 neighborhood units</span
-          >, within 31 <span style={style_l2}> L2 sub-city units</span>, within
-          a single <span style={style_l1}> L1 city unit</span>.
+          A hierarquia de unidades geográficas do SALURBAL para São Paulo,
+          Brasil consiste em 621 <span style={style_l25}>
+            unidades de bairro L2.5</span
+          >, dentro de 31
+          <span style={style_l2}> unidades de sub-cidade L2</span>, dentro de
+          uma única <span style={style_l1}> unidade de cidade L1</span>.
         </p>
       </div>
     </section>
@@ -1475,32 +1482,32 @@
 <Divider />
 
 <Section>
-  <h2>Understanding inter- and intra-city differences</h2>
+  <h2>Entendendo as diferenças inter e intra-cidade</h2>
   <p class="text-medium">
-    This process was repeated for all 371 cities included in the SALURBAL
-    project. The result is an unprecedented data resource that allows us to
-    document and compare differences in health and wellbeing both between and
-    within cities across Latin America. You can find examples of analyses using
-    this data structure in our <a
+    Esse processo foi repetido para todas as 371 cidades incluídas no projeto
+    SALURBAL. O resultado é um recurso de dados sem precedentes que nos permite
+    documentar e comparar diferenças em saúde e bem-estar tanto entre quanto
+    dentro das cidades em toda a América Latina. Você pode encontrar exemplos de
+    análises usando esta estrutura de dados em nossa <a
       href="https://drexel.edu/lac/data-evidence/publications/"
-      target="_blank">publications list</a
+      target="_blank">lista de publicações</a
     >.
   </p>
   <p class="text-medium">
-    For more information on the specific units used in each SALURBAL country,
-    see our article in the <a
+    Para obter mais informações sobre as unidades específicas usadas em cada
+    país SALURBAL, consulte nosso artigo no <a
       href="https://link.springer.com/article/10.1007/s11524-018-00326-0"
       target="_blank">Journal of Urban Health</a
     >.
   </p>
   <p class="text-medium">
-    For more details and access to these boundaries please see our
+    Para obter mais detalhes e acesso a esses limites, consulte nosso
     <a href="https://data.lacurbanhealth.org/" target="_blank"
-      >spatial data repository</a
+      >repositório de dados espaciais</a
     >
-    on the
+    no
     <a href="https://data.lacurbanhealth.org/" target="_blank"
-      >SALURBAL data portal</a
+      >portal de dados SALURBAL</a
     >.
   </p>
 </Section>

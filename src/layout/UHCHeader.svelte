@@ -56,14 +56,14 @@
 
 <style>
   #svg-container {
-    width: 200px; /* Set the desired width of the container */
-    height: 50px; /* Set the desired height of the container */
+    width: 200px; /* Defina a largura desejada do contêiner */
+    height: 50px; /* Defina a altura desejada do contêiner */
   }
 
   #my-svg {
-    width: 100%; /* Make the SVG width fill the container */
-    height: 100%; /* Make the SVG height fill the container */
-    object-fit: contain; /* Adjust the object-fit property as per your needs */
+    width: 100%; /* Faça a largura do SVG preencher o contêiner */
+    height: 100%; /* Faça a altura do SVG preencher o contêiner */
+    object-fit: contain; /* Ajuste a propriedade object-fit conforme suas necessidades */
   }
 
   .parent {
