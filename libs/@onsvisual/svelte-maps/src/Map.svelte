@@ -22,6 +22,7 @@
   export let scales = false;
   export let locate = false;
   export let tabbable = false;
+  export let dragPan = false;
 
   export let zoom = null;
   export let center = null;
@@ -69,7 +70,7 @@
         style,
         minZoom: minzoom,
         maxZoom: maxzoom,
-        dragPan: false,
+        dragPan: dragPan,
         interactive,
         ...options,
       });
