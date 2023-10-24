@@ -808,12 +808,12 @@
   <h3>Passo 2: Combinando cidades vizinhas</h3>
   <p class="text-medium">
     Cidades que inicialmente foram consideradas cidades separadas foram
-    combinadas em uma única cidade se faziam parte da mesma aglomeração, ou
-    seja, se suas áreas construídas estavam conectadas. Usamos o nome da cidade
-    com a maior população para rotular essas unidades. Em alguns casos onde as
-    populações eram quase iguais, atribuímos um nome hifenizado (por exemplo,
-    Valparaiso-Viña del Mar, Chile). Esse processo resultou em 371 cidades, às
-    quais nos referimos como “cidades SALURBAL”.
+    combinadas em uma única cidade desde que fizessem parte da mesma
+    aglomeração, ou seja, se suas áreas construídas estavam conectadas. Usamos o
+    nome da cidade com a maior população para rotular essas unidades. Em alguns
+    casos onde as populações eram quase iguais, atribuímos um nome hifenizado
+    (por exemplo, Valparaiso-Viña del Mar, Chile). Esse processo resultou em 371
+    cidades, às quais nos referimos como “cidades SALURBAL”.
   </p>
 </Section>
 
