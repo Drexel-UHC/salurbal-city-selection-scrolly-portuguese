@@ -821,10 +821,9 @@
   <h3>Passo 3: Definindo os limites geográficos de cada cidade.</h3>
   <p class="text-medium">
     Operacionalizamos - ou definimos geograficamente - cada cidade SALURBAL
-    usando unidades administrativas existentes às quais a saúde e outros dados
-    poderiam ser facilmente vinculados. Essas unidades administrativas incluíam <em
-      >municípios</em
-    >,
+    usando unidades administrativas existentes às quais dados de saúde e outros
+    tipos de dados poderiam ser facilmente vinculados. Essas unidades
+    administrativas incluíam <em>municípios</em>,
     <em>departamentos</em> ou unidades similares em cada país.
   </p>
   <div style="display: flex; justify-content: center; align-items: center;">
@@ -1092,23 +1091,22 @@
   <div slot="foreground">
     <section data-id="map01">
       <div class="col-medium">
-        <p>Usaremos São Paulo, Brasil como exemplo.</p>
+        <p>Usaremos São Paulo, Brasil, como exemplo.</p>
       </div>
     </section>
     <section data-id="map02">
       <div class="col-medium">
         <p>
           Estas são as <span style={style_l2}>unidades administrativas</span>
-          (<em>município</em>) em São Paulo, Brasil.
+          (<em>municípios</em>) em São Paulo, Brasil.
         </p>
       </div>
     </section>
     <section data-id="map04">
       <div class="col-medium">
         <p>
-          Através da inspeção visual de imagens de satélite, identificamos <span
-            style={style_ux}
-          >
+          Através da inspeção visual por meio de imagens de satélite,
+          identificamos <span style={style_ux}>
             todas as unidades administrativas que incluíam qualquer parte da
             área construída</span
           > de cada cidade SALURBAL.
@@ -1189,7 +1187,7 @@
           >, e se estende além do
           <span style={style_l2}>município de São Paulo</span>. Todas as
           definições de cidade SALURBAL foram revisadas pelos membros da equipe
-          SALURBAL em cada país, antes de criar uma lista final de 371 cidades.
+          SALURBAL em cada país, antes de criar uma lista final com 371 cidades.
         </p>
       </div>
     </section>
@@ -1202,8 +1200,8 @@
     cidade SALURBAL
   </h3>
   <p class="text-medium">
-    Para capturar diferenças dentro da cidade e acomodar dados disponíveis para
-    diferentes níveis geográficos, definimos unidades em múltiplos “níveis”
+    Para capturar diferenças dentro de cada cidade e acomodar dados disponíveis
+    para diferentes níveis geográficos, definimos unidades em múltiplos “níveis”
     geográficos.
   </p>
   <p class="text-medium">
