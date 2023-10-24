@@ -744,7 +744,7 @@
         Usamos o <a href="http://atlasofurbanexpansion.org/" target="_blank"
           >Atlas da Expansão Urbana</a
         >
-        e os dados do censo de cada país de
+        e os dados do censo de cada país do site
         <a href="https://citypopulation.de/" target="_blank"
           >citypopulation.de</a
         > para obter uma lista de todas as cidades (conforme definido nessas fontes)
@@ -1201,26 +1201,26 @@
   </h3>
   <p class="text-medium">
     Para capturar diferenças dentro de cada cidade e acomodar dados disponíveis
-    para diferentes níveis geográficos, definimos unidades em múltiplos “níveis”
-    geográficos.
+    para diferentes níveis geográficos, definimos unidades em múltiplos
+    "níveis".
   </p>
   <p class="text-medium">
-    Cada cidade SALURBAL é referida como uma unidade de Nível 1 (L1). Unidades
-    administrativas que compõem cada cidade (conforme descrito no passo 3) são
-    referidas como unidades de Nível 2 (L2). Também definimos unidades
-    geográficas menores, que são semelhantes a bairros aninhados dentro de cada
-    L2. Estas são referidas como unidades de Nível 3 (L3s).
+    Cada cidade SALURBAL é classificada como uma unidade de Nível 1 (L1). As
+    unidades administrativas que compõem cada cidade (conforme descrito no passo
+    3) são referidas como unidades de Nível 2 (L2). Também definimos unidades
+    geográficas menores, que são semelhantes a vizinhanças aninhados dentro de
+    cada L2. Estas são referidas como unidades de Nível 3 (L3s).
   </p>
   <p class="text-medium">
-    Em países onde L3s não foram definidos para todo o território, SALURBAL
-    criou proxies L3 combinando outras unidades geográficas disponíveis. Quando
-    L3s eram muito pequenos para nossos propósitos de pesquisa, bairros foram
-    representados usando unidades ligeiramente maiores. Referimo-nos a estes
-    como unidades de Nível 2.5 (L2.5s).
+    Em países onde L3s não estavam disponíveis para todo o território, o
+    SALURBAL criou proxies para os L3s combinando outras unidades geográficas
+    disponíveis. Quando os L3s eram muito pequenos para nossos propósitos de
+    pesquisa, vizinhanças foram representados usando unidades ligeiramente
+    maiores. Referimo-nos a estas como unidades de Nível 2.5 (L2.5s).
   </p>
   <p class="text-medium">
     Vamos voltar a São Paulo para ver como esses diferentes níveis geográficos
-    se aplicam a uma cidade real.
+    se aplicam à uma cidade real.
   </p>
   <div
     style="display: flex; justify-content: center; align-items: center; margin-top: 1rem;"
@@ -1433,7 +1433,7 @@
         <p>
           Dentro da cidade SALURBAL de São Paulo <span style={style_l1}
             >(São Paulo L1)</span
-          >, definimos unidades de sub-cidade como cada um dos
+          >, definimos sub-cidades como cada um dos
           <em>municípios</em> que compõem a aglomeração urbana de São Paulo.
           Estes são os
           <span style={style_l2}>L2s</span>.
@@ -1442,7 +1442,7 @@
     </section>
     <section data-id="map03">
       <div class="col-medium">
-        <strong>Nível 3: "Bairros"</strong>
+        <strong>Nível 3: "Vizinhanças"</strong>
         <p>
           <span style={style_l3}>Unidades de Nível 3 ou bairros</span> são as menores
           unidades administrativas para as quais os dados do censo estão disponíveis
@@ -1463,10 +1463,10 @@
     <section data-id="map05">
       <div class="col-medium">
         <p>
-          Estas <span style={style_l3}> unidades L3</span> eram às vezes muito
-          pequenas para suportar uma análise significativa ao nível do bairro.
-          Para resolver este problema, usamos unidades geográficas de censo
-          maiores do Brasil (<em>Áreas de Ponderação</em>) e as rotulamos como
+          Essas <span style={style_l3}> unidades L3</span> eram às vezes muito
+          pequenas para suportar uma análise significativa ao nível de
+          vizinhança. Para resolver este problema, utilizamos unidades
+          geográficas do censo maiores (Áreas de Ponderação) e as rotulamos como
           <span style={style_l25}> L2.5's</span>.
         </p>
       </div>
