@@ -710,13 +710,13 @@
   <h2>Introdução</h2>
   <p class="text-medium">
     A equipe SALURBAL desenvolveu um protocolo rigoroso para definir cidades,
-    sub-cidades e bairros. Esse processo nos permite estudar e comparar
+    sub-cidades e vizinhanças. Esse processo nos permite estudar e comparar
     ambientes urbanos e seus impactos na saúde em cidades de 11 países da
     América Latina: Argentina, Brasil, Chile, Colômbia, Costa Rica, El Salvador,
     Guatemala, México, Nicarágua, Panamá e Peru.
   </p>
   <p class="text-medium">
-    Empreendemos uma abordagem sistemática para identificar e definir as cidades
+    Adotamos uma abordagem sistemática para identificar e definir as cidades
     SALURBAL. A abordagem descrita abaixo orientou a definição de áreas
     geográficas às quais todos os dados SALURBAL estão vinculados. Você pode ler
     mais sobre esse processo em <a
