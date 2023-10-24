@@ -1490,7 +1490,7 @@
 <Section>
   <h2>Entendendo as diferenças inter e intra-cidade</h2>
   <p class="text-medium">
-    Esse processo foi repetido para todas as 371 cidades incluídas no projeto
+    Esse processo foi realizado para todas as 371 cidades que compõe o projeto
     SALURBAL. O resultado é um recurso de dados sem precedentes que nos permite
     documentar e comparar diferenças em saúde e bem-estar tanto entre quanto
     dentro das cidades em toda a América Latina. Você pode encontrar exemplos de
@@ -1507,7 +1507,7 @@
     >.
   </p>
   <p class="text-medium">
-    Para obter mais detalhes e acesso a esses limites, consulte nosso
+    Para obter mais detalhes e acesso à esses limites, consulte nosso
     <a href="https://data.lacurbanhealth.org/" target="_blank"
       >repositório de dados espaciais</a
     >
