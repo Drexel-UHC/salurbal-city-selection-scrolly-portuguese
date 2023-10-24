@@ -692,7 +692,7 @@
 <Filler theme="lightblue" short={true} wide={true} center={false}>
   <h1>O que é uma cidade SALURBAL?</h1>
   <p class="text-big" style="margin-top: 5px">
-    Cidade SALURBAL, sub-cidade e definição e seleção de bairro
+    Definição e seleção das cidades, sub-cidades e vizinhanças SALURBAL
   </p>
 
   <p class="text-medium">
