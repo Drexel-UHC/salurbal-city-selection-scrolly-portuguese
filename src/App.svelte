@@ -730,22 +730,25 @@
 <Divider />
 
 <Section>
-  <h3>Passo 1. Identificando cidades com uma população de 100.000 ou mais.</h3>
+  <h3>
+    Passo 1. Identificado as cidades com uma população de 100.000 habitantes ou
+    mais.
+  </h3>
   <div class="two-col-container">
     <div class="left-col">
       <p class="text-medium">
         O universo da cidade SALURBAL foi definido como todas as aglomerações
-        urbanas com pelo menos 100.000 residentes a partir de 2010.
+        urbanas com pelo menos 100.000 habitantes em 2010.
       </p>
       <p class="text-medium">
         Usamos o <a href="http://atlasofurbanexpansion.org/" target="_blank"
           >Atlas da Expansão Urbana</a
         >
-        e os dados do censo do país de
+        e os dados do censo de cada país de
         <a href="https://citypopulation.de/" target="_blank"
           >citypopulation.de</a
         > para obter uma lista de todas as cidades (conforme definido nessas fontes)
-        com 100.000 residentes ou mais em 2010. Combinamos ambas as listas e eliminamos
+        com 100.000 habitantes ou mais em 2010. Combinamos ambas as listas e eliminamos
         as duplicatas.
       </p>
     </div>
@@ -1139,7 +1142,7 @@
         </p>
         <p>
           O exemplo mostrado aqui é Monterrey, México, com uma população de
-          cerca de 5 milhões de residentes. Alguns dos <em>municípios</em> incluídos
+          cerca de 5 milhões de habitantes. Alguns dos <em>municípios</em> incluídos
           como parte de Monterrey têm apenas uma pequena parte da área urbanizada
           da cidade.
         </p>
@@ -1156,7 +1159,7 @@
         </p>
         <p>
           O exemplo mostrado aqui é Rio Cuarto, Argentina, com uma população de
-          cerca de 270.000 residentes. A <span style={style_ux}>cidade</span> de
+          cerca de 270.000 habitantes. A <span style={style_ux}>cidade</span> de
           Rio Cuarto é composta por um único
           <span style={style_l2}><em>departamento</em></span>.
         </p>
