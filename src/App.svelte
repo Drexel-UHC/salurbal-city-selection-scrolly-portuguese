@@ -703,6 +703,11 @@
     <br />
     Desenvolvido por:
     <span style={'font-weight: 900'}> Anuj Tanwar, Ran Li</span>
+    <br />
+    Tradução para o português apoiada por:
+    <span style={'font-weight: 900'}>
+      Silva Sol, Carnavalli Rocha, and Natalie Rodrigues</span
+    >
   </p>
 </Filler>
 
