@@ -706,7 +706,7 @@
     <br />
     Tradução para o português apoiada por:
     <span style={'font-weight: 900'}>
-      Silva Sol, Carnavalli Rocha, and Natalie Rodrigues</span
+      Silva Sol, Carnavalli Rocha e Natalie Rodrigues</span
     >
   </p>
 </Filler>
