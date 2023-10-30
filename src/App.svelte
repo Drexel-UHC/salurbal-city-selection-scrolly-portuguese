@@ -731,7 +731,7 @@
 
 <Section>
   <h3>
-    Passo 1. Identificado as cidades com uma população de 100.000 habitantes ou
+    Passo 1. Identificando as cidades com uma população de 100.000 habitantes ou
     mais.
   </h3>
   <div class="two-col-container">
@@ -1489,7 +1489,7 @@
 <Divider />
 
 <Section>
-  <h2>Entendendo as diferenças inter e intra-cidade</h2>
+  <h2>Entendendo as diferenças inter- e intra-cidade</h2>
   <p class="text-medium">
     Esse processo foi realizado para todas as 371 cidades que compõe o projeto
     SALURBAL. O resultado é um recurso de dados sem precedentes que nos permite
